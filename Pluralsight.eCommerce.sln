@@ -5,7 +5,11 @@ VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "Pluralsight.eCommerce", "Pluralsight.eCommerce\Pluralsight.eCommerce.sfproj", "{0A1294BB-EFB4-46D5-A2A6-12B58A66F3CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eCommerce.ProductCatalog", "eCommerce.ProductCatalog\eCommerce.ProductCatalog.csproj", "{945402AA-BC64-4F82-AC63-2672F0ED787F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eCommerce.ProductCatalog", "eCommerce.ProductCatalog\eCommerce.ProductCatalog.csproj", "{945402AA-BC64-4F82-AC63-2672F0ED787F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eCommerce.ProductCatalog.Model", "eCommerce.ProductCatalog.Model\eCommerce.ProductCatalog.Model.csproj", "{9C3BD95A-9F7E-4DBA-B886-52D53FE5F250}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eCommerce.API", "eCommerce.API\eCommerce.API.csproj", "{3B4CB41F-388B-403A-AEAA-AC220F580E52}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +35,22 @@ Global
 		{945402AA-BC64-4F82-AC63-2672F0ED787F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{945402AA-BC64-4F82-AC63-2672F0ED787F}.Release|x64.ActiveCfg = Release|Any CPU
 		{945402AA-BC64-4F82-AC63-2672F0ED787F}.Release|x64.Build.0 = Release|Any CPU
+		{9C3BD95A-9F7E-4DBA-B886-52D53FE5F250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C3BD95A-9F7E-4DBA-B886-52D53FE5F250}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C3BD95A-9F7E-4DBA-B886-52D53FE5F250}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9C3BD95A-9F7E-4DBA-B886-52D53FE5F250}.Debug|x64.Build.0 = Debug|Any CPU
+		{9C3BD95A-9F7E-4DBA-B886-52D53FE5F250}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C3BD95A-9F7E-4DBA-B886-52D53FE5F250}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C3BD95A-9F7E-4DBA-B886-52D53FE5F250}.Release|x64.ActiveCfg = Release|Any CPU
+		{9C3BD95A-9F7E-4DBA-B886-52D53FE5F250}.Release|x64.Build.0 = Release|Any CPU
+		{3B4CB41F-388B-403A-AEAA-AC220F580E52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B4CB41F-388B-403A-AEAA-AC220F580E52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B4CB41F-388B-403A-AEAA-AC220F580E52}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3B4CB41F-388B-403A-AEAA-AC220F580E52}.Debug|x64.Build.0 = Debug|Any CPU
+		{3B4CB41F-388B-403A-AEAA-AC220F580E52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B4CB41F-388B-403A-AEAA-AC220F580E52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B4CB41F-388B-403A-AEAA-AC220F580E52}.Release|x64.ActiveCfg = Release|Any CPU
+		{3B4CB41F-388B-403A-AEAA-AC220F580E52}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
