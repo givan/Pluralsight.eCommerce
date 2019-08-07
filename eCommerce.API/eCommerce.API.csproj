@@ -26,11 +26,14 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.ServiceFabric.Actors" Version="3.4.658" />
     <PackageReference Include="Microsoft.ServiceFabric.AspNetCore.Kestrel" Version="3.4.658" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.9" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\eCommerce.ProductCatalog.Model\eCommerce.ProductCatalog.Model.csproj" />
+    <ProjectReference Include="..\UserActor.Interfaces\UserActor.Interfaces.csproj" />
   </ItemGroup>
 
 </Project>
