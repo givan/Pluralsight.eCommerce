@@ -41,6 +41,24 @@ namespace eCommerce.API.Controllers
             });
         }
 
+        // GET api/products/{productId>
+        [HttpGet("{productId}")]
+        public async Task<ApiProduct> GetByIdAsync(Guid productId)
+        {
+            ApiProduct result = new ApiProduct();
+
+            Product product = await _service.GetProductAsync(productId);
+            if (product != null)
+            {
+                result.Id = product.Id;
+                result.Description = product.Description;
+                result.Price = product.Price;
+                result.IsAvailable = product.Availability > 0;
+            }
+
+            return result;
+        }
+
         // POST api/products
         [HttpPost]
         public async Task PostAsync([FromBody] ApiProduct product)
