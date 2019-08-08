@@ -33,6 +33,15 @@ namespace eCommerce.ProductCatalog
             return (await _repo.GetAllProducts()).ToArray();
         }
 
+        public async Task<Product> GetProductAsync(Guid productId)
+        {
+            var allProducts = await _repo.GetAllProducts();
+
+            Product foundProduct = allProducts.SingleOrDefault(p => p.Id == productId);
+
+            return foundProduct;
+        }
+
         /// <summary>
         /// Optional override to create listeners (e.g., HTTP, Service Remoting, WCF, etc.) for this service replica to handle client or user requests.
         /// </summary>
